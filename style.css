@@ -1,0 +1,41 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.box{
+    position: relative;
+    display: inline-block;
+}
+.popup{
+    padding: 15px;
+    width: 110px;
+    border-radius: 10px;
+    color: white;
+    background: #222;
+}
+.info{
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    width: 110px;
+    text-align: center;
+    bottom: 50px;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+.box:hover .info {
+    display: block;
+}
+a:hover{
+    background: lightblue;
+    color: red;
+}
